@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+header button{
+    border: none;
+    background-color: inherit;
+    margin: 10px;
+}
+
+header button:hover{
+    color: white;
+    background-color: #F44545;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.hero button{
+    color: white;
+    background-color: #F44545;
+    padding: 12px 27px;
+    border:none;
+    margin-left: -98px;
+    border-radius: 10px;
+}
+.hero input{
+    color: white;
+    padding: 15px 40px;
+    box-shadow: -5px 5px 45px 0px #02120626;
+    border: none;
+}
+.yozu{
+    width: 520px;
+    height: 400px;
+    line-height: 50px;
+}
+.yozu h1{
+    font-size: 54px;
+}
+.yozu p{
+    font-weight: 600;
+    font-size: 22px;
+}
+.hero img{
+    margin-top: 20px;
+    margin: 20px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+.rasm{
+    width: 746px;
+    height: 440px;
+}
+
+.uzun{
+    margin-top: 100px;
+    
+}
+
+.tort{
+background: linear-gradient(141.58deg, #FF9A9A 3.63%, #F14C4C 91.45%);
+box-shadow: 1px 5px 30px 0px #D7151580;
+border: none;
+color: white;
+padding: 20px;
+border-radius: 10px;
+}
+
+.card{
+    width: 282px;
+height: 290px;
+opacity: 1;
+top: 1081px;
+left: 157px;
+border-radius: 10px;
+box-shadow: 0px 15px 65px 0px #414D4426;
+padding: 39px 24px 36px 35px;
+}
+
+.card h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.card p{
+    line-height: 160%
+}
+.cardlar{
+    display: flex;
+    align-items: center;
+}
+
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    width: 594px;
+height: 610px;
+opacity: 1;
+top: 1081px;
+left: 157px;
+}
+
+.yozuv{
+    width: 548px;
+height: 405px;
+opacity: 1;
+top: 1184px;
+left: 825px;
+border-radius: 6px;
+}
+
+.yozuv h1{
+font-family: Poppins;
+font-weight: 600;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.yozuv p{
+font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+.orta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but{
+    border: none;
+    background-color: white;
+    color: #FF4D4D;
+    margin: 25px;
+}
+.but:hover{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+}
+.chap{
+width: 524px;
+height: 398px;
+opacity: 1;
+top: 1834px;
+left: 227px;
+
+}
+
+.chap p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 0%;
+margin-top: 20px;
+}
+
+.ot{
+    width: 480px;
+height: 345px;
+opacity: 1;
+top: 3224px;
+left: 228px;
+border-radius: 6px;
+
+}
+
+.ot p{
+    margin-top: 25px;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 0%;
+
+}
+.ot h1{
+font-family: Poppins;
+font-weight: 600;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.shot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.bot{
+    width: 765px;
+}
+.shot button{
+    color: white;
+    background-color: #F44545;
+    padding: 12px 27px;
+    border:none;
+    border-radius: 7px;
+}
+
+.yoz{
+    text-align: center;
+    width: 654px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.yoz p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.yoz h1{
+font-family: Poppins;
+font-weight: 600;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.yoz p{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.chiziq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chiziq input{
+    border-radius: 40px;
+    background-color: rgb(223, 223, 223);
+    border: none;
+    margin-left: -34px;
+    margin-top: -4px;
+    
+}
+
+.cards{
+    width: 361.26171875px;
+height: 604px;
+opacity: 1;
+top: 4227px;
+left: 227px;
+border: 2px solid gray;
+border-radius: 10px;
+text-align: center;
+margin-top: 100px;
+transition: 0.5s;
+}
+.cards h2{
+font-family: Poppins;
+font-weight: 600;
+font-size: 20px;
+line-height: 170%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+color: #021206;
+}
+.cards h1{
+    font-weight: 700;
+}
+
+.cards p{
+    line-height: 90px;
+    font-size: 20px;
+}
+
+.cards span{
+    margin-left: 30px;
+}
+
+.cards button{
+    border: none;
+    background-color: inherit;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F14C4C;
+}
+
+.cards button:hover{
+    color: white;
+    background-color: #F44545;
+    padding: 15px 60px;
+    border-radius: 10px;
+    
+}
+
+
+.otas{
+    display: flex;
+    gap: 50px;
+}
+
+
+.cards:hover{
+    transform: scale(1.1);
+}
+
+
+footer{
+    background-color: #8ee6c97a;
+    margin-top: 100px;
+    padding: 70px 0 ;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.bir{
+   width: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.bir p{
+font-family: Poppins;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 0%;
+width: 244px;
+height: 52px;
+opacity: 0.7;
+top: 5053px;
+left: 227px;
+}
+
+.ikki{
+}
+
+.ikki h2{
+    width: 107;
+height: 32;
+opacity: 0.7;
+top: 5001px;
+left: 521px;
+font-family: Poppins;
+font-weight: 500;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 20px;
+
+}
+
+.ikki p{
+opacity: 0.7;
+top: 5089px;
+left: 521px;
+font-family: Poppins;
+font-weight: 400;
+font-size: 19px;
+line-height: 190%;
+letter-spacing: 0%;
+}
